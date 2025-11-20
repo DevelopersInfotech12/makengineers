@@ -11,7 +11,7 @@ const HomeSectionFive = () => {
         {
             id: 1,
             title: "Training Program",
-            image: "/training.webp",
+            image: "/images/img16.jpg",
             description:
                 "Metallizing Equipment Co. Pvt. Ltd. is one of the leading manufacturers and service providers of Thermal Spray Equipment. We also offer specialized 'Thermal Spray Training' designed for operators, inspectors, and skilled professionals. The program covers Gas Flame, Arc, Plasma, and HVOF spraying techniques. It enhances the performance of your workforce, improves equipment efficiency, reduces consumable usage, and ensures safe operation.",
             features: [
@@ -25,7 +25,7 @@ const HomeSectionFive = () => {
         {
             id: 2,
             title: "Consultancy Services",
-            image: "/consultancy.webp",
+          image: "/images/img16.jpg",
             description:
                 "Planning and simulation form the foundation of operational success. At MEC, our consultancy services help clients maximize the lifecycle performance of their equipment and thermal spray solutions. Through continuous evaluation, system integration support, and expert guidance, we ensure optimal operation. Our certified partners and engineering specialists deliver precise expertise tailored to client needs.",
             features: [
@@ -38,7 +38,7 @@ const HomeSectionFive = () => {
         {
             id: 3,
             title: "Testing & Calibration",
-            image: "/testing.webp",
+            image: "/images/img16.jpg",
             description:
                 "The R&D Laboratory of Metallizing Equipment Co. Pvt. Ltd. is accredited by the National Accreditation Board for Testing and Calibration Laboratories (NABL), India. Certified under ISO/IEC 17025:2005, our facility specializes in mechanical testing and calibration services, ensuring precise performance validation and national standards compliance.",
             features: [
@@ -134,7 +134,7 @@ const HomeSectionFive = () => {
                                 <img
                                     src={business.image}
                                     alt={business.title}
-                                    className="w-full h-80 object-cover transition-transform duration-700 group-hover/img:scale-110"
+                                    className="w-full h-[450px] object-cover transition-transform duration-700 group-hover/img:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                                 
@@ -147,7 +147,7 @@ const HomeSectionFive = () => {
                         <div className="flex flex-col justify-between">
                             {/* Description */}
                             <div>
-                                <p className="text-gray-600 text-base leading-relaxed mb-6 font-semibold">
+                                <p className="text-gray-600 text-base leading-relaxed mb-6 font-semibold text-justify">
                                     {business.description}
                                 </p>
 

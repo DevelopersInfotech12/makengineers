@@ -135,7 +135,7 @@ const HomeSectionThree = () => {
                   <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-orange-400 group-hover:to-orange-600 transition-all duration-500">
                     {product.title}
                   </h3>
-                  <p className="text-gray-300 font-semibold font-sans leading-relaxed mb-6 text-sm">
+                  <p className="text-gray-300 font-semibold font-sans leading-relaxed mb-6 text-sm text-justify">
                     {product.description}
                   </p>
 

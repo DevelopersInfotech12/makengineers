@@ -184,7 +184,7 @@ const HomeSectionFour = () => {
             {clients.map((client, index) => (
               <div
                 key={index}
-                className="relative aspect-square rounded-xl border-2 shadow-lg border-gray-200 p-4 flex items-center justify-center hover:border-orange-500 hover:shadow-orange-500/30 transition-all duration-300 group cursor-pointer overflow-hidden"
+                className="relative aspect-square rounded-xl border-2 shadow-3xl border-gray-200 p-4 flex items-center justify-center hover:border-orange-500 hover:shadow-orange-500/30 transition-all duration-300 group cursor-pointer overflow-hidden"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 {/* Orange Glow on Hover */}
@@ -193,7 +193,7 @@ const HomeSectionFour = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="relative z-10 max-w-full max-h-full object-contain opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                  className="relative z-10 max-w-full max-h-full object-contain shadow-3xl group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
                   onError={(e) => {
                     e.target.style.display = 'none';
                     e.target.parentElement.innerHTML += `<div class="text-gray-400 text-xs font-bold text-center">${client.name}</div>`;

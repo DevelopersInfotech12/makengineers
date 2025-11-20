@@ -19,7 +19,7 @@ const WhatsAppWidget = () => {
           <div className="flex items-center gap-3 mb-2">
            
             <div className=''>
-              <h4 className="font-bold text-lime-400 text-[23px] mx-auto text-cente">What's App Support</h4>
+              <h4 className="font-bold bg-gradient-to-r from-orange-500 to-orange-500 text-transparent bg-clip-text text-[23px] mx-auto text-cente">What's App Support</h4>
             </div>
           </div>
           <p className="text-[14.4px] text-gray-100 mb-6">
@@ -27,7 +27,7 @@ const WhatsAppWidget = () => {
           </p>
           <button
             onClick={openWhatsApp}
-            className="w-full text-slate-800 bg-lime-400 hover:bg-green-600  py-2 px-4 rounded-lg text-sm font-bold transition-colors"
+            className="w-full text-white text-transparent bg-gradient-to-r from-amber-600 via-orange-600 to-amber-600  hover:bg-green-600  py-2 px-4 rounded-lg text-md font-bold transition-colors"
           >
             Start Chat
           </button>
